@@ -1,4 +1,23 @@
 apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: order-domain
+  description: Everything related to orders
+spec:
+  owner: ms-order
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: Moonlinght
+  description: Everything related to order
+  tags:
+    - tool
+spec:
+  owner: tnunes
+  domain: Atlantis
+---
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: ci-environment-jwt
