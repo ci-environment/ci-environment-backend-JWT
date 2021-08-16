@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  name: order-domain
+  name: Atlantis
   description: Everything related to orders
 spec:
-  owner: ms-order
+  owner: squad-faustao
 ---
 apiVersion: backstage.io/v1alpha1
 kind: System
@@ -14,7 +14,7 @@ metadata:
   tags:
     - tool
 spec:
-  owner: tnunes
+  owner: squad-faustao
   domain: Atlantis
 ---
 apiVersion: backstage.io/v1alpha1
@@ -28,6 +28,6 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: tnunes
+  owner: squad-faustao
   system: Moonlinght
   domain: Atlantis
