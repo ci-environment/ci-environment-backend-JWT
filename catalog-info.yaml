@@ -1,23 +1,4 @@
 apiVersion: backstage.io/v1alpha1
-kind: Domain
-metadata:
-  name: Atlantis
-  description: Everything related to orders
-spec:
-  owner: squad-faustao
----
-apiVersion: backstage.io/v1alpha1
-kind: System
-metadata:
-  name: Moonlinght
-  description: Everything related to order
-  tags:
-    - tool
-spec:
-  owner: squad-faustao
-  domain: Atlantis
----
-apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: ci-environment-jwt
