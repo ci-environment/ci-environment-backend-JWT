@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ci-environment-jwt
+  description: testando catalog
+  tags:
+    - c#
+    - ci
+spec:
+  type: service
+  lifecycle: experimental
+  owner: tnunes
+  system: Moonlinght
+  domain: Atlantis
