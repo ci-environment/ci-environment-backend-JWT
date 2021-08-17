@@ -10,5 +10,5 @@ spec:
   type: service
   lifecycle: experimental
   owner: squad-faustao
-  system: Moonlight
-  domain: Atlantis
+  system: Environment
+  domain: CI
